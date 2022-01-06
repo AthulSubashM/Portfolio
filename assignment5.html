@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 5</title>
+        <link type="text/css" rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+
+    <body>
+        
+        <nav class="navbar" id="navbar">
+            <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="assignment1.html">Assignment 1</a></li>
+                    <li><a href="assignment2.html">Assignment 2</a></li>
+                    <li><a href="assignment3.html">Assignment 3</a></li>
+                    <li><a href="assignment4.html">Assignment 4</a></li>
+                    <li class="current"><a href="assignment5.html">Assignment 5</a></li>
+                    <li><a href="assignment6.html">Assignment 6</a></li>
+                    <li class="ham"><p>Labs</p>
+                        <ul class="dropdown">
+                            <li><a href="lab7.html">Lab 7</a></li>
+                            <li><a href="lab8res.html">Lab 8 (I)</a></li>
+                            <li><a href="lab8wall.html">Lab 8 (II)</a></li>
+                        </ul>
+                    </li>
+            </ul>
+            <ul class="reg">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar">
+            <p>Navigate</p>
+            <ul class="sidedrop">
+                <li><a href="#navbar">Top</a></li>
+                <li><a href="#one">Optimisation</a></li>
+                <li><a href="#two">Analysis</a></li>
+                <li style="border-bottom:5px;"><a href="#bottom">Bottom</a></li>
+            </ul>
+        </div>
+        <div class="content">
+        <div class="a5">
+        <div class="banner">
+            <h1>Analysis and Optimisation</h1>
+            </div>
+            <h2 id="one">Optimisation</h2>
+            <h4>Load Times</h4>
+            <figure>
+            <img src="IMG/A5/loadm.png">
+            <figcaption>Mobile</figcaption>
+            </figure>
+            <figure>
+            <img src="IMG/A5/loadd.png">
+            <figcaption>Desktop</figcaption>
+            </figure>
+            <p>Reducing a webpage’s load time is one of the best ways of improving the overall user experience of the website. Using Google’s <a href="https://pagespeed.web.dev/">PageSpeed Insights</a> tool, I made sure that all the pages of my website load very quickly and have at least a performance score of 90. The assignments which had a lot of image files had a considerably lower performance score than the ones with only a few images. I improved the performance score for those pages by reducing the image sizes from around 500 – 2000 KB each to around 50 – 300 KB. This drastically improved the load times for assignments 1 and 2 without much change is quality.</p>
+            <div class="row">
+                <div class="column">
+            <h4>Responsiveness</h4>
+            <p>The website was designed with responsivity in mind. All the webpages are highly responsive, and the elements adjust automatically according to the screen size. I used a max width of 768px as the breaking point to switch to a mobile layout. In the mobile layout, the top navigation bar becomes vertical and all elements like images that were displayed side-by-side on the desktop layout and displayed vertically.</p>
+        </div>
+        <div class="column">
+            <h4>Navigation</h4>
+            <p>Navigation was another point of focus while building the website. I made sure that all the assignments can accessed from any page with just one click and all other pages can be accessed with no more than two clicks. Reducing the number of clicks to reach the destination makes navigating across the website much easier for the user and is shown to greatly improve the user experience. </p>
+        </div>
+        <div class="column">
+            <h4>Readability</h4>
+            <p>I have used black text on a light grey background, with a high contrast ratio of around 17:1 to improve the readability of the website. The high contrast makes it easier for user with impaired vision to use the website. Moreover, all the headings are of different complementary colours and sizes which further helps navigating the website much easier.</p>
+        </div>
+            </div>
+
+            <h2 id="two">Use Case Analysis</h2>
+            <div class="row">
+            <div class="column">
+            <p><strong>1.   A user is someone who has never been to Trent before, is driving here for a meeting, and needs to find a specific classroom.  Discuss how this is done without leaving the Trent page.
+            </strong><br><br>The user would most likely either click on the menu button and expand the Services & Support option and then go to Conferences or search for the classroom in the search bar. Both these methods would not help the user to locate the classroom. After searching for 15 mins I would say that either it is not possible to locate a classroom thorough the trent.ca website or the website’s developers have done a bad job at making such a useful tool easy to find. The only thing the user could use the website for in this situation is to get Trent University’s contact number and ask for directions.</p>
+
+            <p><strong>2.	A prospective student needs to know fees for a domestic student enrolled in the MSc Big Data AMOD programme (not thesis based) at Trent university.  Start from trentu.ca and never leave the trentu.ca domain. </strong>
+                <br><br>First click on the menu button and then expand the Academics menu and select Graduate Programs. On the Graduate Studies webpage, click on the Tuition, Awards & Funding button on the right side of the page. Then after scrolling down press the Graduate Student Fees & Tuition button. On this page, the user could find a link saying Fees for Financial Analytics and Big Data Analytics under the Fees for Graduate Programs heading, which would display the required fees.</p>
+             </div>
+            <div class="column">
+            <p><strong>
+                3.  A first-time student wants to find their grade on an assignment (on blackboard).
+            </strong><br><br>To find their grades the user should first log into Blackboard and then open the Global Navigation Menu on the top-right part of the page which has the user’s name on it. In the menu the user should select the fourth icon on the left side which says My Grades when hovered over. Here the user could select which course the assignment is from on the left side and view the grades on the right side.</p>
+            
+            <p><strong>
+                4.	Starting with a fresh browser window, how difficult is it to order the web design textbook for this course without using the author’s name from an online retailer
+            </strong><br><br>It is very easy to find this book with the author’s name. The first few results that came upon searching for LEARNING WEB DESIGN A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics 5th edition on Google leads to Amazon from where the right book can be bought.</p>
+            </div>
+             <div class="column">
+            <p><strong>
+                5.	Could you easily order and uber in Peterborough, UK, from here?
+            </strong><br><br>Yes, it possible to easily order an uber in Peterborough, UK from here. This can be done by using the <a href="https://www.uber.com/">Uber</a> website and clicking on the Ride option and selecting the appropriate pickup location and destination. Then user could then just pay for the ride online.</p>
+
+            <p><strong>
+                6.	Using duckduckgo.com versus google.ca to determine if a political ad or statement is accurate?  
+            </strong><br><br>I searched “Are liberals communists?” on both Google and DuckDuckGo and got some wildly different results. Google mainly showed results that talked about the difference between liberals and communists and a few results that state that liberals are not communists. Meanwhile on DuckDuckGo, the majority of the results said that liberals are communists with headlines such as “A Liberal, Is A Progressive, Is A Communist”, “Democrat is the New Communist”, “Liberals are Communists”, etc.</p>
+            </div>
+             </div>
+        </div>
+    </div>
+
+</body>
+
+
+<footer id="bottom">
+    <p class="name">Athul Subash Marottikkal</p>
+    <div class="icons">
+    
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>       
+    </div>
+    <p class="foot"><a href="index.html">Home</a> | <a href="">Contact us</a> </p>
+    <p class="notice">Copyright &copy; 2021 </p>
+    
+</footer>
+</html>
