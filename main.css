@@ -193,14 +193,12 @@ table caption{
 }
 
 abbr{
-    text-decoration: underline overline wavy goldenrod;
     text-underline-offset: 1px;
     
 }
 
 .acr{
-    text-decoration: none;
-    text-decoration: line-through;
+
     text-transform: uppercase;
 }
 
@@ -345,21 +343,10 @@ h5{
 strong{
     font-weight:500;
     font-size:1.1em;
-    color: darkred;
-}
-
-.a5 strong{
     color: #000000;
 }
 
-em{
-    font-size: 1.1em;
-    color:darkgoldenrod;
-}
 
-cite{
-    text-shadow: black -1px -1px 5px;
-}
 
 
 .column {
